@@ -1,0 +1,83 @@
+.logo-img {
+  position: relative;
+}
+.license {
+  position: absolute;
+  top: 115px;
+  right: 15px;
+}
+.navbar-inverse {
+  background-image: none;
+  background-color: #fff;
+  border: none;
+}
+.navbar {
+  margin-bottom: 0;
+  min-height: 160px;
+  padding: 15px 0 15px 0;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a:hover {
+  text-shadow: none;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #555;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background-image: none;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #fff;
+  color: #333;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 1em;
+}
+@media (min-width: 768px) {
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 1em;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 1.7em;
+    margin-top: 20px;
+  }
+}
+
+.jumbowrap {
+  width: 100%;
+  background-color: #d4eae9; 
+  -moz-box-shadow: inset 0 0 30px #999;
+  -webkit-box-shadow: inset 0 0 30px #999;
+  box-shadow: inset 0 0 30px #999;
+}
+.jumbotron {
+  background-color: inherit;
+}
+
+.footwrap {
+  padding: 30px 0 30px 0;
+  margin-top: 50px;
+  width: 100%;
+  background-color: #252525;
+  color: #ccc;
+}
+.well {
+  background-image: none;
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
